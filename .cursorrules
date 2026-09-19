@@ -4,7 +4,7 @@
 - GitHub remote: https://github.com/ixamal/music_migration (scripts + docs only — never commit audio / NML / master.db / giant JSON catalogs).
 - Never write destructive file-moving code without offering a `--dry-run` option first.
 - Use `pathlib.Path` for cross-platform, clean path manipulations in Python.
-- Git authorship: commits and PRs must be David alone — never add `Co-authored-by: Cursor`, `Made-with: Cursor`, or any Cursor attribution trailer.
+- Git authorship: commits and PRs must be David alone — never add `Co-authored-by: Cursor`, `Co-authored-by: Codex`, `Made-with: Cursor`, or any agent attribution trailer. We vibe-code in Cursor and Codex only.
 
 # DJ Migration Context
 - Repo / scripts: ~/github/ixamal/music_migration

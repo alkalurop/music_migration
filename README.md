@@ -2,6 +2,8 @@
 
 Traktor / Rekordbox / Apple Music library migration tooling for [ixamal](https://github.com/ixamal) / [alkalurops.org](https://www.alkalurops.org).
 
+**Vibe coding.** Cursor and Codex only. Git commits are David — no Cursor or Codex co-author trailers.
+
 This repo tracks **scripts + docs only** — not the audio library. Local SSD paths and collection files stay on the machine / backup volume.
 
 **Living log:** `docs/PROGRESS.md` + `git log` = lightweight Confluence (decisions, counts, gotchas).
