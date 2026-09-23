@@ -6,6 +6,23 @@ This file + `git log` is the project journal (Confluence without the ceremony).
 
 ---
 
+## 2026-08-30 — stems_audio review playlist
+
+Added top-level Traktor playlist **stems_audio**: 4,968 live collection entries under `~/Music/stems_audio` (1,212 STEM + 3,756 TRACK, including vocals/instrumental). Command: `python3 -m music_migration.traktor.add_stems_audio_playlist --execute`. Backup `collection.nml.stems_audio.bak`. Open Playlists → **stems_audio** (first in the list). DJCU2 that crate when David wants it in Rekordbox.
+
+---
+
+## 2026-08-30 — Traktor remap after ix crate dump
+
+ix `crate/` emptied Unknown Album, mashups, and `_outliers/Inbox`. Then:
+
+- Quit Traktor Pro 4.
+- `update_nml_paths --nml` live `Traktor 4.5.1/collection.nml` **executed**. 4,952 stems + 22,612 Music.app files relinked. 1,302 unmatched (factory/orphans, same class as 2026-08-20). Backup `collection.nml.bak`.
+- `fix_nml_playlists --execute`: 100 playlist keys repaired (Unknown Album / mashup dests), **0 unresolved**. Backup `collection.nml.playlists.bak`.
+- Reopened Traktor. Do not DJCU2 until David confirms playlists.
+
+---
+
 ## 2026-08-21 — Post-move dry-run; GitHub Desktop attached
 
 Clone is at `~/github/ixamal/music_migration`. GitHub Desktop shows the same five local files. All `python3 -m music_migration.* --dry-run` runs from the new path; counts match 2026-08-20. No `--execute`. Do not run hoist, organize, or traktor_to_rekordbox against local XML.

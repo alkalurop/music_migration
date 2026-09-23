@@ -50,6 +50,7 @@ python3 -m music_migration                          # list commands
 # Traktor (quit Traktor before --execute writes)
 python3 -m music_migration.traktor.update_nml_paths --dry-run
 python3 -m music_migration.traktor.fix_nml_playlists --dry-run
+python3 -m music_migration.traktor.add_stems_audio_playlist --dry-run
 
 # Rekordbox (quit Rekordbox before Collection/XML writes)
 python3 -m music_migration.rekordbox.traktor_to_rekordbox --dry-run

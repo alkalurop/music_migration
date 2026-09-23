@@ -5,6 +5,7 @@ from __future__ import annotations
 COMMANDS = [
     ("music_migration.traktor.update_nml_paths", "Remap Traktor collection.nml"),
     ("music_migration.traktor.fix_nml_playlists", "Repair playlist PRIMARYKEYs"),
+    ("music_migration.traktor.add_stems_audio_playlist", "Playlist of live stems_audio tracks"),
     ("music_migration.rekordbox.traktor_to_rekordbox", "Merge Traktor → Rekordbox XML"),
     ("music_migration.rekordbox.heal_rekordbox_paths", "Heal dead RB XML locations"),
     ("music_migration.rekordbox.relocate_rekordbox_collection", "Relink Collection master.db"),
