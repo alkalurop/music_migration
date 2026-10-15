@@ -1,5 +1,7 @@
 # music_migration
 
+**If you DJ:** when you move music to a new drive or folder layout, this keeps Traktor and Rekordbox pointed at the real files and fixes playlist keys so crates do not empty overnight. It was built for the Terrarum migration — relink tens of thousands of rows once, not by hand in each app.
+
 Traktor / Rekordbox / Apple Music library migration tooling for [ixamal](https://github.com/ixamal) / [alkalurops.org](https://www.alkalurops.org).
 
 **Vibe coding.** Cursor and Codex only. Git commits are David — no Cursor or Codex co-author trailers.
